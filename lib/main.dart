@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import './widgets/chart.dart';
 import './widgets/new_transaction.dart';
 import './widgets/transaction_list.dart';
-import './widgets/chart.dart';
 import './models/transaction.dart';
 import 'models/transaction.dart';
 
@@ -24,6 +23,8 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   fontSize: 18,
                 ),
+                button: TextStyle(color: Colors.white,),
+                body1: TextStyle(fontSize: 15),
               ),
           appBarTheme: AppBarTheme(
             textTheme: ThemeData.light().textTheme.copyWith(
